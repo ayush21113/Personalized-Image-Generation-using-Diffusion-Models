@@ -1,0 +1,36 @@
+# Core Dependencies for Intro GenAI Diffusion Project
+# Optimized for Google Colab with T4 GPU
+
+# Diffusion Models
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# LoRA and PEFT
+peft>=0.7.0
+
+# PyTorch (usually pre-installed in Colab, but specified for completeness)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Numerical Operations
+numpy>=1.24.0
+
+# Dataset Utilities
+datasets>=2.16.0
+
+# Memory Optimization (8-bit optimizers)
+bitsandbytes>=0.41.0
+
+# Utilities
+tqdm>=4.65.0
+safetensors>=0.4.0
+
+# For downloading sample images
+requests>=2.31.0
